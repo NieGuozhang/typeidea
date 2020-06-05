@@ -1,13 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="172a7640-498c-43ab-ba45-dffeb53611c8" name="Default Changelist" comment="" />
+    <list default="true" id="172a7640-498c-43ab-ba45-dffeb53611c8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1csj9DiIWSrHbZxBcWShWYliQvO" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -61,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1591324042007</updated>
       <workItem from="1591324083019" duration="4644000" />
-      <workItem from="1591328855184" duration="583000" />
+      <workItem from="1591328855184" duration="827000" />
     </task>
     <servers />
   </component>
@@ -80,21 +89,21 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="560" y="160" key="EnvironmentVariablesDialog/0.0.1440.900@0.0.1440.900" timestamp="1591326073005" />
-    <state width="1390" height="232" key="GridCell.Tab.0.bottom" timestamp="1591328850663">
+    <state width="1390" height="232" key="GridCell.Tab.0.bottom" timestamp="1591341934903">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1390" height="232" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591328850663" />
-    <state width="1390" height="232" key="GridCell.Tab.0.center" timestamp="1591328850661">
+    <state width="1390" height="232" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1591341934903" />
+    <state width="1390" height="232" key="GridCell.Tab.0.center" timestamp="1591341934902">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1390" height="232" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591328850661" />
-    <state width="1390" height="232" key="GridCell.Tab.0.left" timestamp="1591328850658">
+    <state width="1390" height="232" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1591341934902" />
+    <state width="1390" height="232" key="GridCell.Tab.0.left" timestamp="1591341934901">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1390" height="232" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591328850658" />
-    <state width="1390" height="232" key="GridCell.Tab.0.right" timestamp="1591328850662">
+    <state width="1390" height="232" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1591341934901" />
+    <state width="1390" height="232" key="GridCell.Tab.0.right" timestamp="1591341934903">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1390" height="232" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591328850662" />
+    <state width="1390" height="232" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1591341934903" />
   </component>
 </project>
