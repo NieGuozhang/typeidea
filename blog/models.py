@@ -22,6 +22,9 @@ class Category(models.Model):
     class Meta:
         verbose_name = '分类'
 
+    def __str__(self):
+        return self.name
+
 
 class Tag(models.Model):
     STATUS_NORMAL = 1
@@ -41,6 +44,9 @@ class Tag(models.Model):
     class Meta:
         verbose_name = '标签'
 
+    def __str__(self):
+        return self.name
+
 
 class Post(models.Model):
     STATUS_NORMAL = 1
@@ -59,10 +65,13 @@ class Post(models.Model):
                                          choices=STATUS_ITEMS,
                                          verbose_name='状态')
     category = models.ForeignKey(Category, verbose_name='分类', on_delete=models.CASCADE)
-    tag = models.ForeignKey(Tag, verbose_name='标签', on_delete=models.CASCADE)
+    tag = models.ManyToManyField(Tag, verbose_name='标签')
     owner = models.ForeignKey(User, verbose_name='作者', on_delete=models.CASCADE)
     created_time = models.DateTimeField(auto_now_add=True, verbose_name='创建时间')
 
     class Meta:
         verbose_name = '文章'
         ordering = ['-id']  # 根据ID进行降序排序
+
+    def __str__(self):
+        return self.title
